@@ -1,0 +1,44 @@
+{
+  "name": "react-native-aecview",
+  "version": "1.0.1",
+  "description": "A ReactNative AecView Component for android and iOS",
+  "main": "react-native-aecview.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "aecview",
+    "modal",
+    "notification"
+  ],
+  "author": {
+    "name": "wangxy",
+    "email": "wang_xiny_123@163.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "github.com/wangxy-520/react-native-aecview.git"
+  },
+  "files": [
+    "lib",
+    "utils",
+    "exmample",
+    "android",
+    "ios"
+  ],
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.53.3"
+  },
+  "peerDependencies": {
+    "react-native": "^0.53.3"
+  }
+}
