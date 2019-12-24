@@ -25,22 +25,24 @@ class BlendModalDemo extends React.Component {
      * @returns {*}
      */
     render() {
-        <View style={styles.container}>
-            <TouchableOpacity activeOpacity={0.5} style={styles.rows}
-                              onPress={() => this.AecAlertMessageModal.showModal(0, this.renderAlertContent("提示框测试"))}>
-                <Text style={{color: '#222222', fontSize: 15}}>提示框</Text>
-            </TouchableOpacity>
-            <TouchableOpacity activeOpacity={0.5} style={styles.rows}
-                              onPress={() => this.AecAlertMessageModal.showModal(3, this.renderAlertContent("加载中..."))}>
-                <Text style={{color: '#222222', fontSize: 15}}>加载框</Text>
-            </TouchableOpacity>
-            <TouchableOpacity activeOpacity={0.5} style={styles.rows}
-                              onPress={() => this.AecAlertMessageModal.closeModal()}>
-                <Text style={{color: '#222222', fontSize: 15}}>关闭</Text>
-            </TouchableOpacity>
-            <AecAlertMessageModal ref={o => this.AecAlertMessageModal = o} okModal={null} hidenModal={null}
-                                  closeText={'取消'} okText={'提交'} closeBtn={true} RatioWidth={0.8}/>
-        </View>
+        return (
+            <View style={styles.container}>
+                <TouchableOpacity activeOpacity={0.5} style={styles.rows}
+                                  onPress={() => this.AecAlertMessageModal.showModal(0, this.renderAlertContent("提示框测试"))}>
+                    <Text style={{color: '#222222', fontSize: 15}}>提示框</Text>
+                </TouchableOpacity>
+                <TouchableOpacity activeOpacity={0.5} style={styles.rows}
+                                  onPress={() => this.AecAlertMessageModal.showModal(3, this.renderAlertContent("加载中..."))}>
+                    <Text style={{color: '#222222', fontSize: 15}}>加载框</Text>
+                </TouchableOpacity>
+                <TouchableOpacity activeOpacity={0.5} style={styles.rows}
+                                  onPress={() => this.AecAlertMessageModal.closeModal()}>
+                    <Text style={{color: '#222222', fontSize: 15}}>关闭</Text>
+                </TouchableOpacity>
+                <AecAlertMessageModal ref={o => this.AecAlertMessageModal = o} okModal={null} hidenModal={null}
+                                      closeText={'取消'} okText={'提交'} closeBtn={true} RatioWidth={0.8}/>
+            </View>
+        );
     }
 }
 

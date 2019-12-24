@@ -1,4 +1,4 @@
-import {Platform, PixelRatio} from 'react-native';
+import {Platform, PixelRatio, Dimensions} from 'react-native';
 let modalWidth = Dimensions.get('window').width;
 let modalHeight = Dimensions.get('window').height;
 

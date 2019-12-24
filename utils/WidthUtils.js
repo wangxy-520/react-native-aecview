@@ -1,3 +1,4 @@
+import {Dimensions} from 'react-native';
 let modalWidth = Dimensions.get('window').width;
 /**
  * wangxy

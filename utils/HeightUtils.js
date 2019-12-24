@@ -1,3 +1,4 @@
+import {Dimensions} from 'react-native';
 let modalHeight = Dimensions.get('window').height;
 /**
  * wangxy
