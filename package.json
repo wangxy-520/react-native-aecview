@@ -1,6 +1,6 @@
 {
   "name": "react-native-aecview",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A ReactNative AecView Component for android and iOS",
   "main": "react-native-aecview.js",
   "scripts": {
